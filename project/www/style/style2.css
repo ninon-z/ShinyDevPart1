@@ -1,0 +1,314 @@
+/* Classe principale de la barre de navigation */
+.navbar-default {
+    /* Couleur de fond de la barre de navigation */
+    background-color: #25a556;
+    border-color: #0f8a6b;
+   }
+   /* Couleur des titres affichés dans la barre */
+   .navbar-default .navbar-brand {
+    color: rgb(7, 7, 7);
+   }
+   /* Couleur utilisée lors du passage de la souris sur un titre de la barre */
+   .navbar-default .navbar-brand:hover,
+   .navbar-default .navbar-brand:focus {
+    color: rgb(246, 252, 247);
+   }
+   /* Couleur utilisée pour les liens */
+   .navbar-default .navbar-nav > li > a {
+    color: rgb(246, 252, 247);
+   }
+   /* Couleur utilisée pour les liens lorsque la souris passe dessus */
+   .navbar-default .navbar-nav > li > a:hover,
+   .navbar-default .navbar-nav > li > a:focus {
+    color: rgb(7, 26, 131);
+   }
+   /* Couleur utilisée pour le lien actif (celui qui est affiché sur la page) */
+   .navbar-default .navbar-nav > .active > a, 
+   .navbar-default .navbar-nav > .active > a:hover, 
+   .navbar-default .navbar-nav > .active > a:focus {
+    color: rgb(7, 7, 7);
+    background-color: #E7E7E7;
+   }
+   /* Couleur utilisée pour un menu dépliant lorsqu'il est ouvert */
+   .navbar-default .navbar-nav > .open > a, 
+   .navbar-default .navbar-nav > .open > a:hover, 
+   .navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+   }
+   /* Caret */
+   .navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+   }
+   .navbar-default .navbar-nav > .dropdown > a:hover .caret,
+   .navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+   }
+   .navbar-default .navbar-nav > .open > a .caret, 
+   .navbar-default .navbar-nav > .open > a:hover .caret, 
+   .navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+   }
+   /* Version mobile, le menu devient une icône qui déroule une liste avec le menu en vertical */
+   .navbar-default .navbar-toggle {
+    border-color: #DDD;
+   }
+   .navbar-default .navbar-toggle:hover,
+   .navbar-default .navbar-toggle:focus {
+    background-color: #DDD;
+   }
+   .navbar-default .navbar-toggle .icon-bar {
+    background-color: #CCC;
+   }
+   @media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #777;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333;
+    }
+   }
+
+
+
+/*.btn {
+
+
+    color: #FA8072;
+  
+  
+    border-color: #FA8072 
+  
+    }*/
+
+    .nav-tabs-custom .nav-tabs li.active:hover a, .nav-tabs-custom .nav-tabs li.active a {
+        background-color: transparent;
+        border-color: transparent;
+   }
+   
+   .nav-tabs-custom .nav-tabs li.active {
+        border-top-color: #0f8a6b;
+   }
+
+   .imageCentre {text-align:center}
+
+   
+  
+
+
+/*
+   table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+  }
+  
+  table tr {
+    background-color: #ca2f2f#596368;
+    border: 2px solid rgb(128, 137, 138);
+    padding: .35em;
+  }
+  
+  table th,
+  table td {
+   
+    padding: .625em;
+    text-align: center;
+  }
+  /*
+  table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }*/
+  /*
+  @media screen and (max-width: 600px) {
+    table {
+      border: 0;
+    }
+  
+    table caption {
+      font-size: 1.3em;
+    }
+    
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    table tr {
+      border-bottom: 3px solid rgb(128, 137, 138);
+      display: block;
+      margin-bottom: .625em;
+    }
+    
+    table td {
+        
+      border-bottom: 2px solid #ddd;
+      display: block;
+      font-size: .8em;
+      text-align: right;
+    }
+
+    table td {
+        border: 2px solid rgb(128, 137, 138);
+      }
+    /*
+    table td::before {
+        /*
+      /*
+      * aria-label has no advantage, it won't be read inside a table
+      content: attr(aria-label);
+      */
+      /*
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }*/
+   /* 
+    table td:last-child {
+      border-bottom: 0;
+    }
+  }*/
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  table tr {
+  /*  background-color: #596368;*/
+   border: 1px solid rgb(5, 5, 5);
+   /* padding: .35em;*/
+  }
+  
+  
+  
+  
+  
+  /* general styling 
+  body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.25;
+  }*/
+  
+/*
+  #dash-board-container {
+    height: 100%;
+    width: 100%;
+}
+
+.quote_list_container {
+    max-height: 100%;
+    max-width: 100%;
+    overflow: auto;
+}
+
+table {
+    table-layout: fixed;
+    width: 700px;
+}
+
+tr td {
+    border: solid 1px #000;
+    overflow: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 300px;
+}
+
+tr th {
+    overflow: hidden;
+
+    white-space: nowrap;
+    border: solid 1px #000;
+    min-width: 100px;
+}
+
+table td + td + td {
+ width:300px;
+}*/
+  
+
+/*
+table, th, td {
+    border: 1px solid Black;}
+    
+    /* make the table a 100% wide by default */
+   /*  table {
+    width: 100%;}
+    
+    /* if the browser window is at least 800px-s wide: */
+    /* @media screen and (min-width: 800px) {
+      table {
+      width: 90%;}
+    }
+    
+    /* if the browser window is at least 1000px-s wide: */
+    /* @media screen and (min-width: 1000px) {
+      table {
+      width: 80%;}
+    }*/
+
+
+   /* .zoom {
+        width: 320px;
+        height: 240px;
+        }
+        .image {
+        width: 100%;
+        height: 100%;
+        }
+        .image img {
+        /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+       /* -webkit-transition: all 1s ease; /* Safari et Chrome */
+       /* -moz-transition: all 1s ease; /* Firefox */
+       /* -ms-transition: all 1s ease; /* Internet Explorer 9 */
+       /* -o-transition: all 1s ease; /* Opera */
+       /* transition: all 1s ease;
+        }
+        .image:hover img {
+        /* L'image est grossie de 25% */
+        /*-webkit-transform:scale(1.25); /* Safari et Chrome 
+        -moz-transform:scale(1.25); /* Firefox */
+        /*-ms-transform:scale(1.25); /* Internet Explorer 9 */
+       /* -o-transform:scale(1.25);  Opera */
+       /* transform:scale(1.25);
+        }*/
+
+        state{
+          -webkit-appearance:none;
+          -moz-appearance:none;
+          width: 90%;
+          padding: 15px;
+          font-size: 14pt;
+          border-radius: 0;
+          outline: none;
+          border: 2px solid #3A506B;
+          color: #3A506B;
+          background: url(menu-chevron-down.svg) no-repeat;
+          background-position: 95% 20px;
+          background-color: white;
+      }
